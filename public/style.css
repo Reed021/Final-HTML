@@ -242,7 +242,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: left;
-    width: 35%;
+    width: 30%;
     margin:0 auto;
     padding: 6em;
     border: black;
@@ -258,7 +258,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: left;
-    width: 35%;
+    width: 12%;
     margin:0 auto;
     padding: 6em;
     border: black;
@@ -297,6 +297,7 @@ body, html {
     border-radius: 2vw;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.6vw;
+
 }
 .interestTxt {
     font-family: "Times New Roman", Times, serif;
@@ -307,6 +308,27 @@ body, html {
     letter-spacing: .05vw;
     display: flex;
     color: white; 
+}
+.interest-image {
+  display:inline-block;
+    align-self:auto;
+    width:15vw;
+    height:19vw;
+    border-radius: 5vw;
+    padding: 2vw;
+    text-wrap: wrap;
+    margin-left: 4vw;
+}
+
+.interest-image-HZ {
+  display:flex;
+    align-self:auto;
+    max-width: 110%; 
+    border-radius: 5vw;
+    padding: 2vw;
+    text-wrap: wrap;
+    margin-left: 4vw;
+
 }
 
 
